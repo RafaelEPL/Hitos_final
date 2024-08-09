@@ -1,0 +1,13 @@
+.card-shadow {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.card-shadow:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+}
+
+.desc{
+    font-size: 14px;
+}

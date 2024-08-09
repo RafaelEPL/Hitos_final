@@ -1,0 +1,49 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titulo {
+  font-weight: 600;
+  margin: 0;
+}
+
+.autor {
+  font-size: 0.9rem;
+  color: #6b6b6b;
+}
+
+.precio {
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.card-footer span {
+  font-size: 0.8rem;
+  color: #6b6b6b;
+}
+
+.usuario {
+  margin: 0;
+}
+
+.imgStyle{
+  object-fit: cover;
+  height: 350px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.rounded-left {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}

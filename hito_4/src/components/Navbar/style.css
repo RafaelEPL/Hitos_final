@@ -1,0 +1,26 @@
+nav a {
+  color: #FFF;
+  text-decoration: none;
+  padding: 8px;
+}
+
+nav .brand a {
+  font-family: "Kadwa", serif;
+}
+
+nav .logo-nav {
+  width: 40px;
+  margin-right: 8px;
+}
+
+nav a.active, .active * {
+  color: #FFD15C;
+}
+
+.iconSearch{
+  &:hover{
+    cursor: pointer;
+    background-color: #00753f;
+    color: white;
+  }
+}

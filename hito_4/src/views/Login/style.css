@@ -1,0 +1,39 @@
+.sectionMain{
+
+    width: 550px;
+    text-align: center;
+
+    h1{
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    /* h3 {
+        font-size: 15px;
+        font-weight: 500;
+        color: #555555;
+        margin-top: 20px;
+    } */
+
+    form{
+        input{
+            border-radius: 50px;
+        }
+
+        .btn{
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .goRegister{
+            a {
+                color:#727272;
+                &:hover{
+                    color: #444444;
+                }
+            }
+        }
+    }
+}
